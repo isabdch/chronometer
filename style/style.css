@@ -19,6 +19,20 @@ body {
     justify-content: space-evenly;
 }
 
+a {
+    position: fixed;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
 #title {
     display: flex;
     flex-flow: column nowrap;
